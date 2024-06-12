@@ -15,6 +15,6 @@ beforeEach(() => {
     .click
 
     cy.get('#tab-title-description > a').should('contain', 'Descrição')
-    
+
     });
 });
